@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "Rogue Planets Wandering the Galaxy",
+      "hook": "Right now, there are billions of dark planets wandering through deep space with no sun, no sunrise, and no warmth.",
+      "why_watch": "Taps into cosmic existential curiosity and cosmic horror; people love learning about invisible celestial bodies.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "hook": "Have you ever learned a new word or bought a specific car, and suddenly seen it everywhere the next day?",
+      "why_watch": "Extremely relatable psychological quirk; viewers immediately test their own memory and share their personal experiences in comments.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Immortal Jellyfish (Turritopsis dohrnii)",
+      "hook": "This tiny sea creature has technically solved death—it can hit the reset button on its own biological age.",
+      "why_watch": "Fascination with biological immortality and natural anomalies; visual macro footage of jellyfish is mesmerizing.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "What If Earth Stopped Spinning for 5 Seconds?",
+      "hook": "If the Earth stopped spinning for just five seconds, the atmosphere would wipe out entire continents at 1,000 miles per hour.",
+      "why_watch": "High-stakes 'what if' scenario that triggers instant imagination and physics curiosity with catastrophic stakes.",
+      "viral_score": 10,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Quantum Levitation (The Meissner Effect)",
+      "hook": "Scientists can lock a physical object in mid-air so firmly that it stays suspended upside down without touching anything.",
+      "why_watch": "Defies common sense; actual laboratory demonstrations look like CGI/magic, commanding high watch time and loop replay.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "Earth's Two-Billion-Year-Old Natural Nuclear Reactor",
+      "hook": "Two billion years before humans split the atom, planet Earth accidentally built its own working nuclear reactor.",
+      "why_watch": "Sounds completely impossible until explained scientifically; appeals to history, geology, and physics enthusiasts.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Extreme Density of Neutron Stars",
+      "hook": "A single sugar cube of material from this dead star would weigh more than Mount Everest.",
+      "why_watch": "Mind-bending scale comparisons provoke disbelief and drive rewatches to fully absorb the astronomical numbers.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Antikythera Mechanism: The 2,000-Year-Old Computer",
+      "hook": "In 1901, divers found a mechanical computer from ancient Greece so advanced that humanity forgot how to build it for another 1,500 years.",
+      "why_watch": "Historical mystery and lost technology narrative; challenges conventional assumptions about ancient civilization.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Why Deep-Sea Creatures Grow to Gigantic Sizes (Deep-Sea Gigantism)",
+      "hook": "At the bottom of the ocean, normal insects and crustaceans grow to the size of small dogs.",
+      "why_watch": "Thalassophobia paired with bizarre biological adaptations triggers strong visual shock value and curiosity.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Tetris Effect: How Games Reprogram Your Brain",
+      "hook": "If you play a game or repeat a task for hours, your brain will physically project it onto the real world while you sleep.",
+      "why_watch": "Universal gamer/workplace experience explained through neuroscience; prompts active commenting about personal encounters.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    }
+  ]
+}
