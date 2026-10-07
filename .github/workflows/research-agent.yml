@@ -22,7 +22,7 @@ jobs:
       - name: Install Gemini SDK
         run: pip install -q google-genai
 
-      - name: Research and fact-check topics
+      - name: Research topics
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -33,18 +33,18 @@ jobs:
           from datetime import datetime, timezone
           from google import genai
 
-          # Find newest topic file
-          topic_files = sorted(glob.glob("data/topics-*.json"))
+          # Find the newest topic file
+          files = sorted(glob.glob("data/topics-*.json"))
 
-          if not topic_files:
-              raise Exception("No topic files found.")
+          if not files:
+              raise Exception("No topic file found.")
 
-          latest_topic_file = topic_files[-1]
+          latest_file = files[-1]
 
-          print("Using:", latest_topic_file)
+          print("Using topic file:", latest_file)
 
-          with open(latest_topic_file, "r", encoding="utf-8") as f:
-              topic_data = json.load(f)
+          with open(latest_file, "r", encoding="utf-8") as f:
+              topics = json.load(f)
 
           api_key = os.environ.get("GEMINI_API_KEY")
 
@@ -53,184 +53,109 @@ jobs:
 
           client = genai.Client(api_key=api_key)
 
-          topics_text = json.dumps(
-              topic_data,
-              ensure_ascii=False
-          )
-
           prompt = f"""
-          You are the research and fact-checking agent for a global
-          science and interesting-facts Instagram automation system.
+          You are a scientific research and fact-checking agent.
 
-          Research every topic below using Google Search.
+          Research the following AI-generated Instagram topic ideas.
 
-          IMPORTANT:
-          - Verify the actual scientific claim.
-          - Do not blindly trust the original hook.
-          - Correct exaggerated or misleading claims.
-          - Prefer NASA, NOAA, ESA, universities, scientific institutions,
-            peer-reviewed research and other highly reliable sources.
-          - Do not invent facts.
-          - Do not invent URLs.
-          - Separate established facts from speculation.
-          - Only mark a topic publishable when its main claim is supported.
-          - Do not copy source wording.
-          - Keep the final information suitable for a general audience.
+          Use Google Search grounding.
 
-          For every topic produce:
-          topic
-          verified_topic
-          key_facts
-          source_urls
-          source_titles
-          fact_confidence
-          corrected_hook
-          publishable
-          notes
+          For every topic:
 
-          fact_confidence must be an integer from 0 to 100.
+          1. Verify the main factual claim.
+          2. Find reliable evidence.
+          3. Prefer NASA, NOAA, ESA, universities,
+             scientific institutions and reputable publications.
+          4. Correct exaggerated or misleading claims.
+          5. Do not invent facts.
+          6. Do not invent sources.
+          7. Clearly distinguish established facts from speculation.
+          8. Give 2 to 4 useful sources when possible.
+          9. Give a confidence score from 0 to 100.
+          10. Decide whether the topic is safe and factually
+              strong enough to publish.
 
-          Topics:
+          Return ONLY valid JSON.
 
-          {topics_text}
+          Required structure:
+
+          {{
+            "research": [
+              {{
+                "topic": "string",
+                "verified_topic": "string",
+                "key_facts": [
+                  "string",
+                  "string",
+                  "string"
+                ],
+                "source_urls": [
+                  "string"
+                ],
+                "source_titles": [
+                  "string"
+                ],
+                "fact_confidence": 0,
+                "corrected_hook": "string",
+                "publishable": true,
+                "notes": "string"
+              }}
+            ]
+          }}
+
+          TOPICS:
+
+          {json.dumps(topics, ensure_ascii=False)}
           """
 
-          print("Starting Google-grounded Gemini research...")
+          print("Sending research request to Gemini...")
 
-          schema = {
-              "type": "object",
-              "properties": {
-                  "research": {
-                      "type": "array",
-                      "items": {
-                          "type": "object",
-                          "properties": {
-                              "topic": {
-                                  "type": "string"
-                              },
-                              "verified_topic": {
-                                  "type": "string"
-                              },
-                              "key_facts": {
-                                  "type": "array",
-                                  "items": {
-                                      "type": "string"
-                                  }
-                              },
-                              "source_urls": {
-                                  "type": "array",
-                                  "items": {
-                                      "type": "string"
-                                  }
-                              },
-                              "source_titles": {
-                                  "type": "array",
-                                  "items": {
-                                      "type": "string"
-                                  }
-                              },
-                              "fact_confidence": {
-                                  "type": "integer"
-                              },
-                              "corrected_hook": {
-                                  "type": "string"
-                              },
-                              "publishable": {
-                                  "type": "boolean"
-                              },
-                              "notes": {
-                                  "type": "string"
-                              }
-                          },
-                          "required": [
-                              "topic",
-                              "verified_topic",
-                              "key_facts",
-                              "source_urls",
-                              "source_titles",
-                              "fact_confidence",
-                              "corrected_hook",
-                              "publishable",
-                              "notes"
-                          ]
-                      }
-                  }
-              },
-              "required": [
-                  "research"
-              ]
-          }
-
-          interaction = client.interactions.create(
-              model="gemini-3.8-flash",
-              input=prompt,
-              tools=[
-                  {
-                      "type": "google_search"
-                  }
-              ],
-              response_format={
-                  "type": "text",
-                  "mime_type": "application/json",
-                  "schema": schema
+          response = client.models.generate_content(
+              model="gemini-2.5-flash-lite",
+              contents=prompt,
+              config={
+                  "tools": [
+                      {"google_search": {}}
+                  ],
+                  "response_mime_type": "application/json"
               }
           )
 
-          if interaction.status != "completed":
-              raise Exception(
-                  f"Gemini interaction did not complete: {interaction.status}"
-              )
+          result = response.text.strip()
 
-          result_text = interaction.output_text.strip()
+          print("Gemini response received.")
 
-          print("Gemini research completed.")
+          try:
+              research = json.loads(result)
+          except json.JSONDecodeError:
+              print("Invalid JSON returned by Gemini:")
+              print(result)
+              raise
 
-          research_data = json.loads(result_text)
+          if "research" not in research:
+              raise Exception("Missing research field.")
 
-          # Add metadata
           now = datetime.now(timezone.utc)
-
-          research_data["generated_at"] = now.isoformat()
-          research_data["source_topic_file"] = latest_topic_file
-
           today = now.strftime("%Y-%m-%d")
+
+          research["generated_at"] = now.isoformat()
+          research["source_topic_file"] = latest_file
 
           output_file = f"data/research-{today}.json"
 
           with open(output_file, "w", encoding="utf-8") as f:
               json.dump(
-                  research_data,
+                  research,
                   f,
                   ensure_ascii=False,
                   indent=2
               )
 
-          print("Saved:", output_file)
+          print("Research saved to:", output_file)
           print(
-              "Topics researched:",
-              len(research_data["research"])
+              "Number of researched topics:",
+              len(research["research"])
           )
-
-          # Print citations found by Google Search grounding
-          citation_count = 0
-
-          for step in interaction.steps:
-              if step.type == "model_output":
-                  for content_block in step.content:
-                      if (
-                          getattr(content_block, "type", None) == "text"
-                          and getattr(content_block, "annotations", None)
-                      ):
-                          for annotation in content_block.annotations:
-                              if getattr(annotation, "type", None) == "url_citation":
-                                  citation_count += 1
-                                  print(
-                                      "Citation:",
-                                      getattr(annotation, "title", ""),
-                                      getattr(annotation, "url", "")
-                                  )
-
-          print("Grounded citations found:", citation_count)
 
           PY
 
@@ -242,7 +167,7 @@ jobs:
           git add data/
 
           if git diff --cached --quiet; then
-            echo "No new research file."
+            echo "Nothing new to commit."
           else
             git commit -m "AI: research and fact-check topics"
             git push
