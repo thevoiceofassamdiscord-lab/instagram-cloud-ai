@@ -1,0 +1,145 @@
+name: AI Topic Agent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  find-topics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ask Gemini for topics
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+          from datetime import datetime, timezone
+
+          api_key = os.environ["GEMINI_API_KEY"]
+
+          prompt = """
+          You are the topic-discovery AI for an Instagram Reels automation system.
+
+          Find 10 strong, globally interesting short-form video topics.
+
+          Do NOT focus on Assam or any particular country.
+
+          Prefer:
+          - science
+          - technology
+          - space
+          - nature
+          - psychology
+          - history
+          - surprising facts
+          - factual mysteries
+          - interesting "what if" scenarios
+
+          Avoid:
+          - politics
+          - dangerous activities
+          - medical misinformation
+          - illegal activities
+          - celebrity gossip
+          - copyrighted story/script copying
+
+          For every topic give:
+          1. Topic
+          2. Hook
+          3. Why people might watch
+          4. Estimated viral potential from 1-10
+          5. Difficulty of making the video from 1-10
+
+          Return ONLY valid JSON in this format:
+
+          {
+            "topics": [
+              {
+                "topic": "...",
+                "hook": "...",
+                "why_watch": "...",
+                "viral_score": 8,
+                "production_difficulty": 3
+              }
+            ]
+          }
+          """
+
+          url = (
+              "https://generativelanguage.googleapis.com/"
+              "v1beta/models/gemini-3.8-flash:generateContent"
+              "?key=" + api_key
+          )
+
+          data = {
+              "contents": [
+                  {
+                      "parts": [
+                          {"text": prompt}
+                      ]
+                  }
+              ],
+              "generationConfig": {
+              
+                  "maxOutputTokens": 3000
+              }
+          }
+
+          request = urllib.request.Request(
+              url,
+              data=json.dumps(data).encode("utf-8"),
+              headers={"Content-Type": "application/json"},
+              method="POST"
+          )
+
+          with urllib.request.urlopen(request) as response:
+              result = json.loads(response.read().decode("utf-8"))
+
+          text = result["candidates"][0]["content"]["parts"][0]["text"]
+          text = text.strip()
+
+          if text.startswith("```"):
+              text = text.split("\n", 1)[1]
+              text = text.rsplit("```", 1)[0].strip()
+
+          topics = json.loads(text)
+
+          os.makedirs("data", exist_ok=True)
+
+          filename = (
+              "data/topics-"
+              + datetime.now(timezone.utc).strftime("%Y-%m-%d")
+              + ".json"
+          )
+
+          with open(filename, "w", encoding="utf-8") as f:
+              json.dump(topics, f, indent=2, ensure_ascii=False)
+
+          print("Generated:", filename)
+          print(json.dumps(topics, indent=2, ensure_ascii=False))
+          PY
+
+      - name: Save topics to repository
+        run: |
+          git config user.name "Instagram Cloud AI"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "AI: update topic ideas"
+            git push
+          fi
