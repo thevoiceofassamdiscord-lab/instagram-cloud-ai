@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Boötes Void: The Loneliest Place in the Universe",
+      "hook": "Imagine looking up at the night sky and seeing absolutely nothing. No stars, no galaxies—just pure, empty blackness.",
+      "why_watch": "Taps into existential curiosity and cosmic dread; audiences love mind-bending spatial scales.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Doorway Effect: Why You Forget When Entering a Room",
+      "hook": "Have you ever walked into a room and instantly forgotten why you went there? Your brain just wiped its own memory on purpose.",
+      "why_watch": "Instantly relatable daily occurrence explained through surprising cognitive psychology.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "Turritopsis Dohrnii: The Biologically Immortal Jellyfish",
+      "hook": "There is a creature living in our oceans right now that can literally reverse its own aging process forever.",
+      "why_watch": "The concept of biological immortality sounds like science fiction, driving strong curiosity and comments.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Voynich Manuscript: The Real Book Nobody Can Read",
+      "hook": "In 1912, an antique book dealer found a manuscript written in an unknown language that even modern supercomputers cannot crack.",
+      "why_watch": "Appeals to mystery lovers; real-life unsolved historical puzzles consistently perform well.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Carrington Event: What a Modern Solar Superstorm Would Do",
+      "hook": "In 1859, a solar flare set telegraph wires on fire. If that same storm hit Earth tomorrow, modern society would instantly collapse.",
+      "why_watch": "High-stakes 'what-if' scenario exploring global vulnerability to natural space weather.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Point Nemo: The Most Isolated Spot on Earth",
+      "hook": "If you stand at this exact spot in the ocean, the closest humans to you aren't on land—they're astronauts orbiting in space.",
+      "why_watch": "Shocking geographical perspective that challenges how viewers perceive Earth's scale.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Frequency Illusion: Why You See That One Thing Everywhere",
+      "hook": "You learn a new word today, and suddenly you start hearing it everywhere. You're not going crazy—your brain is playing a trick on you.",
+      "why_watch": "Explains a universal psychological quirk that viewers experience constantly without knowing the name.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The 1977 Wow! Signal: 72 Seconds of Pure Mystery",
+      "hook": "In 1977, an astronomer detected a radio signal from deep space that was 30 times louder than background noise. We have never found it again.",
+      "why_watch": "Connects with fascination about extraterrestrial life and authentic astronomical anomalies.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "1816: The Year Without a Summer",
+      "hook": "Imagine a year where summer never came—snow fell in June, lakes froze in July, and millions faced starvation.",
+      "why_watch": "Sounds like an apocalyptic movie premise, but it is an authentic historical event caused by volcanic winter.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "What If All Earth's Ice Melted Overnight?",
+      "hook": "If every glacier and ice cap on Earth melted by tomorrow morning, global oceans would rise by 216 feet. Here is what vanishes first.",
+      "why_watch": "Dramatic visual 'what-if' concept that triggers immediate curiosity about familiar coastal cities.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    }
+  ]
+}
