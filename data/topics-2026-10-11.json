@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "Rogue Planets: The Dark Wanderers of Space",
+      "hook": "Right now, there are billions of dark, frozen Earth-sized planets drifting through deep space with no sun.",
+      "why_watch": "Taps into cosmic dread and curiosity about the vast, unseen dangers lurking in interstellar space.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "hook": "Have you ever learned a new word and suddenly started hearing it everywhere? Your brain isn't glitching—here's why.",
+      "why_watch": "Instantly relatable everyday psychological phenomenon that triggers an 'aha!' moment and shares easily.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Biological Immortality of Turritopsis Dohrnii",
+      "hook": "There is a creature on Earth that can literally reset its age and live forever when it gets sick or old.",
+      "why_watch": "Defies fundamental human assumptions about life and death using real biology.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Antikythera Mechanism: A 2,000-Year-Old Computer",
+      "hook": "In 1901, divers found a rusted gear system in a shipwreck that scientists thought was impossible for its era.",
+      "why_watch": "Appeals to mystery lovers and history buffs fascinated by advanced ancient engineering.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "What If All GPS Satellites Shut Down for 24 Hours?",
+      "hook": "If GPS went dark for just one day, planes wouldn't just get lost—global banking and power grids would crash.",
+      "why_watch": "Shocking realization of how invisibly dependent modern infrastructure is on atomic clocks in orbit.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The 'Call of the Void' (L'appel du Vide)",
+      "hook": "Have you ever stood on a high balcony and had a sudden, terrifying urge to jump? You aren't suicidal.",
+      "why_watch": "Validates a secret, frightening impulse millions experience but rarely speak about.",
+      "viral_score": 10,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Boomerang Nebula: Colder Than Space Itself",
+      "hook": "The coldest natural place in the entire known universe is actually colder than empty space itself.",
+      "why_watch": "Counter-intuitive physics fact that breaks general intuition about cosmic temperatures.",
+      "viral_score": 7,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Mpemba Effect: Hot Water Freezing Faster Than Cold",
+      "hook": "Pour boiling water into the freezer next to cold water, and the boiling water can freeze first. Physics still argues why.",
+      "why_watch": "Simple, household-relatable paradox with unresolved scientific discussion that invites comments and debates.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The 1986 Lake Nyos Silent Eruption",
+      "hook": "In 1986, an entire African village went to sleep, and over 1,700 people suffocated overnight without a single sound or fire.",
+      "why_watch": "Bizarre, haunting natural disaster narrative driven by an invisible limnic gas release.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Demon Core: The Split-Second Mistake",
+      "hook": "A single flathead screwdriver slip in 1946 triggered a blinding blue flash that doomed a physicist instantly.",
+      "why_watch": "High-tension true science story emphasizing extreme stakes and instantaneous human error.",
+      "viral_score": 10,
+      "production_difficulty": 4
+    }
+  ]
+}
