@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Coldest Place in the Universe (Boomerang Nebula)",
+      "hook": "There is a place in the universe colder than the vacuum of deep space itself—and it's expanding right now.",
+      "why_watch": "It subverts common intuition about space temperature and introduces a bizarre cosmic anomaly using mind-bending scale.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Doorway Effect (Event Boundary Psychology)",
+      "hook": "Ever walked into a room and instantly forgot what you went in for? Your brain actually just deleted the file.",
+      "why_watch": "High relatability; explains a universal human quirk using accessible cognitive psychology.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "What Lies Inside Jupiter (What If You Fell In?)",
+      "hook": "If you jumped into Jupiter wearing an indestructible spacesuit, you would never hit the ground.",
+      "why_watch": "High-concept curiosity exploration; combines extreme physics, liquid metallic hydrogen oceans, and terrifying sensory scale.",
+      "viral_score": 9,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "Subsea Internet Cables (How the Physical Internet Works)",
+      "hook": "Almost none of your internet comes from satellites—it travels through thin glass threads laying on the ocean floor.",
+      "why_watch": "Destroys a widespread modern misconception and reveals the surprisingly fragile physical infrastructure powering our daily lives.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Turritopsis dohrnii: The Biologically Immortal Jellyfish",
+      "hook": "There is an organism living in Earth's oceans that can technically live forever by aging backwards.",
+      "why_watch": "Taps into the evergreen fascination with immortality and biological anomalies that defy human limits.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Antikythera Mechanism (The 2,000-Year-Old Computer)",
+      "hook": "In 1901, divers found a bronze device in a shipwreck with gear technology that shouldn't have existed for another thousand years.",
+      "why_watch": "Genuine historical mystery that challenges conventional timelines of ancient human technology without relying on pseudoscience.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Carrington Event (The Solar Storm Threat)",
+      "hook": "In 1859, a solar storm caused telegraph machines to burst into flames—if it happened today, the entire global grid could collapse.",
+      "why_watch": "Existential technology threat based on verified historical science, creating natural tension and shareability.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Lake Natron: The Lake That Calcifies Life",
+      "hook": "There is a blood-red lake with water so caustic it turns animals that die in it into stone statues.",
+      "why_watch": "Striking eerie imagery paired with fascinating chemical explanation (extreme alkaline pH and sodium carbonate).",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Rogue Planets: Nomad Worlds Drifting in Darkness",
+      "hook": "There are billions of planets floating in our galaxy that have no sun, wandering in total darkness.",
+      "why_watch": "Existential awe and cosmic mystery; triggers visual imagination about life or conditions on an untethered world.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "hook": "Ever learn a new word and suddenly start hearing it five times a day? You didn't enter a simulation.",
+      "why_watch": "Explains a common spooky sensation through selective attention and cognitive bias, prompting viewers to comment their own examples.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    }
+  ]
+}
