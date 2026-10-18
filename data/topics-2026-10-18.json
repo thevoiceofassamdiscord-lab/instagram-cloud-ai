@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Immortal Jellyfish (Turritopsis dohrnii)",
+      "hook": "There is a creature on Earth that can hit a biological 'rewind' button whenever it gets old or injured.",
+      "why_watch": "Taps into human fascination with immortality, cellular biology, and nature defying the rules of aging.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Phantom Vibration Syndrome",
+      "hook": "You just felt your phone buzz in your pocket—but when you look, there's no notification. Here is why your brain hallucinated it.",
+      "why_watch": "Deeply relatable modern phenomenon; viewer immediately feels personally called out and curious about the psychological cause.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Kola Superdeep Borehole",
+      "hook": "Humanity has sent spacecraft billions of miles past Pluto, but we have barely scratched 0.2% into our own planet's crust.",
+      "why_watch": "Contrasts deep space exploration with inner Earth mystery, sparking existential awe about what lies beneath us.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Antikythera Mechanism",
+      "hook": "In 1901, divers found a 2,000-year-old rusted gear system so complex, nothing matched its technology for another millennium.",
+      "why_watch": "Real historical mystery that challenges our perception of ancient technological capabilities without leaning into conspiracy theories.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Rogue Planets: Worlds Without a Sun",
+      "hook": "Imagine an entire planet, larger than Jupiter, drifting completely alone through the pitch-black void of deep space.",
+      "why_watch": "Elicits intense cosmic dread and fascination with unusual exoplanet astrophysics and dark space environments.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Victorian Paris Green: The Poisonous Wallpaper",
+      "hook": "In the 1800s, this brilliant green pigment made rooms look luxurious—while slowly poisoning everyone living inside them.",
+      "why_watch": "Combines vintage aesthetics with shocking historical/chemical facts about accidental self-poisoning through arsenic dye.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Quantum Tunneling Inside the Human Body",
+      "hook": "Right now, your body is using impossible quantum teleportation just to keep you breathing.",
+      "why_watch": "Translates complex quantum physics into an intimate, relatable reality happening inside the viewer's own cells.",
+      "viral_score": 7,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "The Door to Hell (Darvaza Gas Crater)",
+      "hook": "In 1971, geologists set a desert crater on fire, expecting it to burn out in a week. It is still blazing over 50 years later.",
+      "why_watch": "Visually striking anomaly with an ironic human blunder premise that keeps audience retention high.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "What If Earth Stopped Spinning for 1 Second?",
+      "hook": "If Earth stopped rotating for literally a single second, you wouldn't just trip—you would launch eastward at 1,000 miles per hour.",
+      "why_watch": "High-urgency 'what-if' scenario highlighting the invisible physics that govern our daily lives.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Tetris Effect",
+      "hook": "If you play a game or do a repetitive task long enough, your brain literally rewires your dreams to keep playing it.",
+      "why_watch": "Addresses a widespread psychological experience gamers and focused workers endure, explaining cognitive habituation.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    }
+  ]
+}
