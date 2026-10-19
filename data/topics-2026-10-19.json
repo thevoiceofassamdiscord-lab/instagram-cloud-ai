@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "Looking at Earth from 65 Million Light-Years Away",
+      "hook": "If an alien 65 million light-years away pointed a telescope at Earth right now, they wouldn't see humans—they’d see live dinosaurs.",
+      "why_watch": "It breaks the intuitive perception of time and space, demonstrating how light travel works in a visually mind-bending way.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Boötes Void: The Emptiest Place in the Universe",
+      "hook": "There is a patch of space so empty that if the Milky Way were in the middle of it, we wouldn't have known other galaxies existed until the 1960s.",
+      "why_watch": "Exploits cosmic existential curiosity and deep-space dread (kenophobia) without leaning into pseudoscience.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Antikythera Mechanism: The 2,000-Year-Old Analog Computer",
+      "hook": "In 1901, divers found a bronze lump in a Roman shipwreck. It turned out to be a computer built 1,500 years before modern science caught up.",
+      "why_watch": "Challenges modern assumptions about ancient technology and presents a genuine, solved historical mystery.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Rogue Waves: The Myth That Turned Out to Be Terrifyingly Real",
+      "hook": "Until 1995, ocean scientists dismissed 100-foot spontaneous monster waves as drunken sailor folklore—until one actually hit an oil rig.",
+      "why_watch": "Combines natural disaster fascination with the satisfaction of a myth scientifically proven by modern instruments (Draupner wave).",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Turritopsis dohrnii: The Immortal Jellyfish",
+      "hook": "There is a creature on Earth that can hit 'Ctrl+Z' on aging and turn back into a baby whenever it gets sick or injured.",
+      "why_watch": "Taps into humanity's eternal obsession with biological immortality and cellular regeneration.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Storing the Entire Internet in a Teaspoon of DNA",
+      "hook": "Every single YouTube video, movie, and book ever produced could fit inside a container the size of a sugar cube.",
+      "why_watch": "High-concept biotech trivia that reframes modern data storage challenges with a shocking quantitative comparison.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Phantom Vibration Syndrome: Why Your Phone Vibrates When It Doesn't",
+      "hook": "Ever reached into your pocket because you felt your phone buzz, only to see zero notifications? Your brain was tricked by a neurological glitch.",
+      "why_watch": "Universally relatable everyday psychology; viewers immediately recognize the experience in their own lives.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "What If You Dropped an Object Down a Hole Through the Earth?",
+      "hook": "If you drilled a tunnel straight through Earth and jumped in, you wouldn't just fall to the core—you’d become a human pendulum.",
+      "why_watch": "Classic physics thought experiment with an unexpected answer involving terminal velocity, gravity shifts, and Coriolis force.",
+      "viral_score": 8,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "The 1908 Tunguska Event: The Explosion Without a Crater",
+      "hook": "In 1908, a blast flattened 80 million trees across 800 square miles in Siberia, but when researchers arrived, there was no impact crater at all.",
+      "why_watch": "Compelling factual mystery explaining the mechanics of an airburst meteor with dramatic imagery potential.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "hook": "Have you ever learned a rare new word or noticed a weird car, and suddenly started seeing it three times a day? You’re not in a simulation.",
+      "why_watch": "Provides a scientific and cognitive explanation for a spooky sensation most people assume is synchronicity or coincidence.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    }
+  ]
+}
