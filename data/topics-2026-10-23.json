@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Prince Rupert's Drop Paradox",
+      "hook": "This tiny piece of glass can shatter a bullet, but breaks with a light tap on its tail.",
+      "why_watch": "High-contrast visual curiosity and counterintuitive physics; viewers love seeing extreme durability tested against slow-motion destruction.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "DNA Data Storage",
+      "hook": "All the data on the entire internet could fit inside a single teaspoon of liquid.",
+      "why_watch": "Minds-blown scale comparison combining biology and future tech, sparking immediate debate and shares.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Doorway Effect",
+      "hook": "Have you ever walked into a room and instantly forgotten why you went there? Your brain just cleared its cache.",
+      "why_watch": "Instantly relatable daily frustration explained by cognitive psychology, making viewers tag friends who do it.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Great Attractor Mystery",
+      "hook": "Something massive in deep space is pulling our entire galaxy toward it at 2 million km/h, and we can't see what it is.",
+      "why_watch": "Cosmic horror and genuine scientific mystery located in the 'Zone of Avoidance', triggering deep curiosity about the unknown universe.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Deep-Sea Gigantism",
+      "hook": "Why do normal sea creatures grow to monstrous sizes the deeper into the ocean you go?",
+      "why_watch": "Thalassophobia paired with bizarre zoological visuals keeps retention high through natural fascination with giant creatures.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Antikythera Mechanism",
+      "hook": "In 1901, divers found a 2,000-year-old computer that technically shouldn't exist.",
+      "why_watch": "Out-of-place artifacts and ancient technology challenge the conventional timeline of human technological advancement.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Biological Age Reversal of Turritopsis dohrnii",
+      "hook": "There is a creature on Earth that can cheat death by literally growing in reverse.",
+      "why_watch": "The concept of biological immortality and cellular transdifferentiation feels like science fiction but is real nature.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Year Without a Summer (1816)",
+      "hook": "In 1816, it snowed in July, global crops failed, and a monster was born out of pure boredom.",
+      "why_watch": "Fascinating historical butterfly effect showing how a single volcanic eruption created Frankenstein, modern bicycles, and worldwide chaos.",
+      "viral_score": 7,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Falling Into a Supermassive Black Hole",
+      "hook": "If you crossed the event horizon of a supermassive black hole, you might not even realize it happened.",
+      "why_watch": "Subverts the popular myth of instant spaghettification, explaining gravitational tidal mechanics and time dilation in a dramatic visual way.",
+      "viral_score": 9,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "Why We Can't Walk in a Straight Line Blindfolded",
+      "hook": "If you close your eyes and try to walk straight across an open field, you will inevitably end up walking in circles.",
+      "why_watch": "Explains a bizarre sensory limitation of the human vestibular and proprioceptive system that viewers immediately want to test themselves.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    }
+  ]
+}
