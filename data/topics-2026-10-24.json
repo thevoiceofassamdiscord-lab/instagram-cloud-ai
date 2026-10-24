@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Boötes Void: The Creepiest Place in the Universe",
+      "hook": "What if you were dropped into a section of space so empty, you couldn't see a single star in any direction?",
+      "why_watch": "Taps into cosmic dread, curiosity about deep space anomalies, and visually striking depictions of scale.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Doorway Effect: Why You Forget Why You Entered a Room",
+      "hook": "Have you ever walked into a room and instantly forgotten why you went there? Your brain just hit 'delete'.",
+      "why_watch": "Instantly relatable daily annoyance explained by fascinating cognitive psychology and event boundaries.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Antikythera Mechanism: A 2,000-Year-Old Analog Computer",
+      "hook": "In 1901, divers found a bronze artifact from ancient Greece with gear mechanics that shouldn't have existed for another thousand years.",
+      "why_watch": "Appeals to mystery and history lovers, challenging our perception of ancient human technology without relying on pseudoscience.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Earth's Core is 2.5 Years Younger Than Its Crust",
+      "hook": "Due to Einstein's theory of general relativity, the center of the Earth is actually younger than the surface you are standing on.",
+      "why_watch": "Mind-bending real-world application of time dilation that shatters common sense physics.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Wood Wide Web: How Forest Trees Communicate",
+      "hook": "Underneath every forest is a biological internet that trees use to send warnings and trade food.",
+      "why_watch": "Transforms how people view everyday nature, turning stationary trees into cooperative, active organisms.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "What If Earth Stopped Spinning for Just 5 Seconds?",
+      "hook": "If the Earth abruptly halted for just five seconds, the atmosphere would keep moving at over 1,000 miles per hour.",
+      "why_watch": "High-stakes 'what if' scenario that triggers immediate curiosity and disaster-scale scientific speculation.",
+      "viral_score": 9,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "Turritopsis dohrnii: The Biologically Immortal Jellyfish",
+      "hook": "There is a creature on Earth that cannot die of old age—it literally resets its life cycle backwards.",
+      "why_watch": "Everyone is fascinated by immortality and the biological mechanics of reversing cellular age.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Rogue Planets: Wanderers of Deep Space",
+      "hook": "There are billions of orphan planets drifting through freezing interstellar space without a sun—and some could harbor life.",
+      "why_watch": "Evokes a sense of vast cosmic loneliness combined with the surprising possibility of subsurface oceans and geothermal ecosystems.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Illusion of Explanatory Depth",
+      "hook": "You think you know how a zipper or a toilet works, until someone hands you a pen and asks you to draw it.",
+      "why_watch": "Interactive psychological test that humbles viewers in real-time, encouraging comments and shares.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "Quantum Levitation: The Meissner Effect",
+      "hook": "This disc isn't resting on magnets—it is physically locked into empty space.",
+      "why_watch": "Visually hypnotic demonstrations of superconductors defying gravity naturally generate high watch time and loop replay.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    }
+  ]
+}
