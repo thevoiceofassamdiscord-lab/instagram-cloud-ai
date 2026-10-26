@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Doorway Effect (Event Boundaries in Psychology)",
+      "hook": "Have you ever walked into a room and instantly forgotten why you went there?",
+      "why_watch": "It addresses a universal, daily quirk that everyone experiences, offering a fascinating neurological explanation that validates the viewer's experience.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Great Attractor Mystery",
+      "hook": "Our entire galaxy is currently being dragged across space toward an invisible point at 2 million km/h.",
+      "why_watch": "High existential curiosity and cosmic scale; viewers love cosmic anomalies and mysteries that science hasn't fully cracked.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Turritopsis Dohrnii (The Biological Immortal)",
+      "hook": "There is a creature on Earth that never dies of old age—it literally resets its body to childhood.",
+      "why_watch": "The concept of biological immortality challenges basic human understanding of life and death, sparking instant curiosity.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Modern Carrington Event Scenario",
+      "hook": "If a storm from 1859 hit Earth today, the global internet and power grid would fry in under 20 hours.",
+      "why_watch": "Combines science with high-stakes 'what if' survival intrigue without crossing into sensationalized misinformation.",
+      "viral_score": 9,
+      "production_difficulty": 5
+    },
+    {
+      "topic": "Self-Healing Roman Concrete",
+      "hook": "Ancient Roman structures survived 2,000 years underwater, while modern bridges crack in decades.",
+      "why_watch": "Contrasts ancient ingenuity against modern technology, tapping into viewers' fascination with 'lost' ancient engineering secrets.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "Saccadic Masking (The Stopped-Clock Illusion)",
+      "hook": "Your brain actively deletes about 40 minutes of visual footage from your life every single day.",
+      "why_watch": "Provides a mind-bending revelation about how the human brain edits reality in real-time, easily testable by the viewer on the spot.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Antikythera Mechanism",
+      "hook": "In 1901, divers found a 2,000-year-old geared computer that shouldn't have existed for another thousand years.",
+      "why_watch": "It is a verified historical anomaly that feels like science fiction, appealing to history and tech enthusiasts alike.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "What If the Moon Vanished Overnight?",
+      "hook": "If the Moon disappeared right now, Earth's days would shrink to 6 hours and the seasons would go extinct.",
+      "why_watch": "Simple, dramatic thought experiment that breaks down celestial physics into immediate consequences on everyday life.",
+      "viral_score": 7,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Deep-Sea Megalops & Abyssal Gigantism",
+      "hook": "Creatures at the bottom of the ocean grow up to 10 times larger than their shallow-water cousins.",
+      "why_watch": "Deep-ocean footage has natural retention power due to the fear and wonder associated with alien-like marine ecosystems.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Baader-Meinhof Phenomenon (Frequency Illusion)",
+      "hook": "Ever learn a rare fact and suddenly hear it three times the same week? Your brain is glitching.",
+      "why_watch": "Explains a relatable cognitive illusion that viewers frequently encounter and often confuse with supernatural synchronicities.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    }
+  ]
+}
