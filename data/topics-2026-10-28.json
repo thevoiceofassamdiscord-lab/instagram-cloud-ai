@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Loneliest Objects in the Universe: Rogue Planets",
+      "hook": "Right now, there are billions of orphan planets wandering through deep space with no sun, completely frozen in perpetual darkness.",
+      "why_watch": "Taps into existential dread and fascination with deep space; easy to visualize with dramatic CGI/B-roll.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Anechoic Chamber: Why Total Silence Drives You Mad",
+      "hook": "Nobody has ever survived more than 45 minutes inside Earth's quietest room—and the reason isn't the silence, it's the noise.",
+      "why_watch": "Psychological intrigue and sensory curiosity; viewers wonder how long they could last.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "What Happens to Earth in 48 Hours If Humans Vanish?",
+      "hook": "If every single human vanished right this second, here is the catastrophic sequence of events that triggers within 48 hours.",
+      "why_watch": "Classic 'What If' hook with rapid pacing, natural curiosity, and striking visual transitions.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "Turritopsis dohrnii: The Biological Immortal",
+      "hook": "There is a creature living in our oceans that discovered the secret to eternal life before humans even existed.",
+      "why_watch": "Mind-bending biological fact that challenges fundamental assumptions about mortality.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Antikythera Mechanism: An Ancient Analog Computer",
+      "hook": "Over 2,000 years ago, someone built a mechanical computer so advanced that modern science didn't catch up for another millennium.",
+      "why_watch": "Historical mystery meets advanced technology; appeals to history buffs and tech enthusiasts.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Frequency Illusion (Baader-Meinhof Phenomenon)",
+      "hook": "Ever learn a random new word and then hear it three times the same day? Your brain is actively glitching.",
+      "why_watch": "Instantly relatable everyday psychological experience explained with scientific backing.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Boiling River of Shanay-Timpishka",
+      "hook": "Deep inside the Amazon rainforest flows a river so hot it literally boils any animal alive that falls into it.",
+      "why_watch": "Surreal, real-world natural danger that sounds like myth or fantasy.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Google Effect: How the Internet Rewired Memory",
+      "hook": "Try to recall your best friend's phone number right now—if you can't, your brain has developed Digital Amnesia.",
+      "why_watch": "Direct audience participation combined with an alarming modern psychological insight.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "Earth's Hidden Ghost Moons (Kordylewski Clouds)",
+      "hook": "You were taught Earth only has one moon, but astronomers confirmed we are actually orbited by two invisible 'ghost moons'.",
+      "why_watch": "Contradicts basic school knowledge, creating instant cognitive dissonance and desire to watch till the end.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Mariana Snailfish: Living Under Impossible Pressure",
+      "hook": "At the bottom of the Mariana Trench, the water pressure is equal to an elephant standing on your thumb—yet this translucent fish thrives.",
+      "why_watch": "Extreme nature and deep-sea fascination; high contrast between fragile appearance and extreme environment.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    }
+  ]
+}
