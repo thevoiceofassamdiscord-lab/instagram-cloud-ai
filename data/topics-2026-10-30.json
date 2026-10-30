@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Rogue Planet Wandering the Milky Way",
+      "hook": "Right now, there is an untethered planet the size of Jupiter hurtling through dark space with no star to call home.",
+      "why_watch": "Taps into existential curiosity, cosmic dread, and the vast scale of space. Visually stunning and easy to illustrate using public NASA footage or CGI.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The False Memory Experiment (Mandela Effect at Scale)",
+      "hook": "Think you have a solid memory? Let me prove to you that your brain has already fabricated hundreds of memories you swear are real.",
+      "why_watch": "Direct audience participation drives massive comment-section debate, high retention rate, and rapid sharing among friends testing each other.",
+      "viral_score": 9,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Creature That Can Reset Its Age to Zero",
+      "hook": "There is an animal on Earth that can literally reverse its own aging process and live forever.",
+      "why_watch": "Biological superpowers defy standard human logic about death and aging, creating instant curiosity and rewatch value.",
+      "viral_score": 8,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "What If Earth Lost Oxygen for Just 5 Seconds?",
+      "hook": "If Earth lost all oxygen for just 5 seconds, daytime would turn pitch black, and every untreated concrete structure would instantly crumble to dust.",
+      "why_watch": "High-stakes 'what if' scenarios trigger instant visualization of catastrophic consequences, keeping retention high until the end.",
+      "viral_score": 9,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Undersea Cables Powering 99% of the Global Internet",
+      "hook": "Almost nothing you do online goes through satellites. It actually travels through garden-hose-sized cables sitting at the bottom of the ocean.",
+      "why_watch": "Shatters a widespread misconception about daily technology; visually striking maps and vulnerability facts (like shark bites and anchor strikes) keep viewers hooked.",
+      "viral_score": 8,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Loudest Sound Ever Recorded in Human History",
+      "hook": "In 1883, a sound on Earth was so powerful it ruptured eardrums 40 miles away and circled the entire planet four times.",
+      "why_watch": "Extreme world-record events create dramatic storytelling; sound design possibilities make the reel naturally immersive.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Sunken City of Thonis-Heracleion",
+      "hook": "For a thousand years, historians dismissed this ancient metropolis as a myth—until a diver stumbled across 16-foot statues under the sea.",
+      "why_watch": "Real-life 'Atlantis' discovery brings ancient history to life, combining adventure, underwater exploration, and historical mystery.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    },
+    {
+      "topic": "The Sperm Whale's Deadly Sonic Weapon",
+      "hook": "A sperm whale's click is so loud that if you swam too close, the sound wave could literally vibrate your body to death.",
+      "why_watch": "Combines deep-sea mystery with an unbelievable animal superpower; creates intense acoustic curiosity.",
+      "viral_score": 9,
+      "production_difficulty": 3
+    },
+    {
+      "topic": "The Tetris Effect: How Screens Rewire Your Dreams",
+      "hook": "Ever played a game or scrolled so long that you saw it behind your eyelids when you closed your eyes? Here's what your brain is actually doing.",
+      "why_watch": "Hyper-relatable everyday experience for modern screen users, backed by legitimate neuroscience explaining cognitive plasticity.",
+      "viral_score": 7,
+      "production_difficulty": 2
+    },
+    {
+      "topic": "The Antikythera Mechanism: The World's First Analog Computer",
+      "hook": "Over 2,000 years ago, ancient Greeks built a geared mechanical computer so complex that humanity wouldn't match it again for another 1,400 years.",
+      "why_watch": "Challenges modern assumptions about ancient technology and historical progress; features mysterious bronze artifacts that immediately look cinematic.",
+      "viral_score": 8,
+      "production_difficulty": 4
+    }
+  ]
+}
